@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 16px;
+  font-size: 12px;
   padding: 30px 10px;
   color: rgba(255, 255, 255, 0.65);
   -webkit-transition: 0.5s;
@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 5em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -908,7 +908,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-started {
-  background: rgba(171, 8, 0, 0.9);
+  background: rgba(111, 5, 0, 0.9);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -970,7 +970,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #efefef;
+  background: #34362f;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1492,4 +1492,30 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.font-white {
+	color: #cfcfcf !important;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #df1c13;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
 }
