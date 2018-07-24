@@ -1663,3 +1663,70 @@ img.hover-shadow {
     font-size: 45px;
 	vertical-align: middle;
 }
+
+.img-responsive {
+	float: left;
+	width: 500px;
+	margin: 15px;
+	margin-top: 0px;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 9999;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+.prev1 {
+	left: 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover,
+.next1:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sf-job-details-fileds {
+    margin-bottom: 20px;
+}
+
+.sf-job-details-fileds ul {
+    list-style: none;
+    margin: 0;
+}
+
+.sf-job-details-fileds ul li {
+    display: table;
+    width: 100%;
+    border: 1px solid #eeeeee;
+    margin-top: -1px;
+}
+
+.sf-job-details-fileds ul li:nth-child(even) {
+    background-color: #f7f8fa;
+}
+
+.sf-job-details-fileds ul li span {
+    padding: 10px 15px;
+    display: table-cell;
+    width: 50%;
+}
